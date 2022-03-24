@@ -66,7 +66,7 @@ const PortalVendedor = () => {
                       <span>R${produto.preco.toFixed(2)}</span>
                     </div>
                     <div className="col-sm-2">
-                      <button className="btn btn-danger" onClick={() => deletar(produto.id)}>Apagar</button>
+                      <button className="btn btn-danger" onClick={() => deletar(produto.id)}><i class="bi bi-trash"></i> Apagar</button>
                     </div>
                   </div>
                 ))}
