@@ -20,6 +20,6 @@ export async function updateContato(contato) {
   await api.put("/contatos/", {
       id: contato.id,
       email: contato.email,
-      mensagem: produto.mensagem
+      mensagem: contato.mensagem
   })
 }

@@ -1,4 +1,5 @@
 import React from "react";
+import { Link } from "react-router-dom";
 import './CardUsuario.css'
 
 
@@ -10,27 +11,31 @@ const CardUsuario = () => {
       <main className="card ">
 
                 
-                  <button type="button" className="btn btn-danger btn-block btn-menu" data-toggle="modal" data-target="#cliente" data-whatever="@mdo">
-                  <i className="bi bi-bag"></i> Sou Cliente    
+                <Link to={"/produtos"}>
+                  <button type="button" className="btn btn-danger btn-block btn-menu">
+                    <i className="bi bi-bag"></i> Sou Cliente
                   </button>
+                </Link>
+                
+                  
                 
                 
 
-                
-                  <button type="button" className="btn btn-danger btn-block btn-menu" data-toggle="modal" data-target="#empreendedor"
+                <Link to={"/portalvendedor"}>
+                 <button type="button" className="btn btn-danger btn-block btn-menu" data-toggle="modal" data-target="#empreendedor"
                   data-whatever="@fat">
-                      <i className="bi bi-shop-window"></i> Sou Empreendedor
-                      
+                      <i className="bi bi-shop-window"></i> Sou Empreendedor       
                   </button>
+                </Link>
                 
                 
 
-        
+                <Link to={"/portalvendedor"}>
                   <button type="button" className="btn btn-danger btn-block btn-menu" data-toggle="modal" data-target="#fornecedor"
                   data-whatever="@getbootstrap">
-                      <i className="bi bi-truck"></i> Sou Fornecedor
-                      
+                      <i className="bi bi-truck"></i> Sou Fornecedor                     
                   </button>
+                </Link>
 
                   
 
@@ -87,7 +92,9 @@ const CardUsuario = () => {
                         </div>
                         <div className="modal-footer">
                           <button type="button" className="btn btn-secondary" data-dismiss="modal">Fechar</button>
-                          <button type="button" className="btn btn-primary">Buscar</button>
+                          <Link to={"/produtos"}>
+                            <button type="button" className="btn btn-primary">Buscar</button>
+                          </Link>                         
                         </div>
                       </div>
                     </div>

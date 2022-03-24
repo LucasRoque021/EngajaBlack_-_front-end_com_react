@@ -15,14 +15,14 @@ const FormDenuncia = () =>{
   const ocorrido = useRef();
 
   function enviarDados(event){
-    event.preventDeafault()
+    event.preventDefault()
     const denuncia = {
       email: email.current.value,
       nome: nome.current.value,
       ocorrido: ocorrido.current.value,
       telefone: telefone.current.value
     }
-    saveDenuncia().then(() => window.location.reload()).catch((erro) => console.log(erro))
+    saveDenuncia(denuncia).then(() => window.location.reload()).catch((erro) => console.log(erro))
   }
   
 

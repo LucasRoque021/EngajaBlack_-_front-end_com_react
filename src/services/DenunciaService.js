@@ -1,8 +1,7 @@
 import api from "../api";
 
 export async function saveDenuncia(denuncia) {
-  await api.post("/denuncias", 
-  {
+  await api.post("/denuncias", {
     nome: denuncia.nome,
     telefone: denuncia.telefone,
     email: denuncia.email,

@@ -19,7 +19,11 @@
   border: 0;
 }
 
-
+.card a{
+  width: 100%;
+  text-decoration: none;
+  margin-bottom: 3px;
+}
 
 @media (max-width: 1000px) {
 
