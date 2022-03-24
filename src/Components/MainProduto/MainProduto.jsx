@@ -1,274 +1,310 @@
 import React from "react";
-import { Panel, PanelGroup } from "rsuite";
-
+import { PanelGroup } from "rsuite";
+import "./MainProduto.css";
 import CardProduto from "./CardProduto";
 
 const MainProduto = () => {
   return (
     <>
-      <main>
-        <div
-          style={{
-            display: "flex",
-            
-            paddingLeft: 10,
-          }}
+       <h2 >Pertinho de você ...</h2>
+     <section className="abc">
+        <div className="painel"
+        
         >
           <PanelGroup header="Sample Panel title" shaded>
-            <h2 className="text-white">Categorias</h2>
-            <div className="container">
-              <div className="row">
-                <div className="col-sm-3">
-                  <div className="left-sidebar">
-                    <div className="panel-group category-products" id="accordian">
-                      <div className="panel panel-default">
-                        <div className="panel-heading">
-                          <h4 className="panel-title">
+            <div class="category">
+            <h2 >Categorias</h2>
+              <div class="row">
+                
+                  <div class="left-sidebar">
+                    <div class="panel-group" id="accordian">
+                      <div class="panel panel-default">
+                        <div class="panel-heading">
+                          <h4 class="panel-title">
                             <a data-toggle="collapse" href="#Comida">
-                              <span className="badge pull-right">
-                                <i className="fa fa-plus"></i>
+                              <span class="badge pull-right">
+                                <i class="fa fa-plus"></i>
                               </span>
                               Comida
                             </a>
                           </h4>
                         </div>
-                        <div id="Comida" className="panel-collapse collapse">
-                          <div className="panel-body">
+                        <div id="Comida" class="panel-collapse collapse">
+                          <div class="panel-body">
                             <ul>
                               <li>
-                                <a href="/produtos"> Hamburguer do tio </a>
+                                <a href=""> Hamburguer do tio </a>
                               </li>
                               <li>
-                                <a href="/produtos"> Marmita da Tia</a>
+                                <a href=""> Marmita da Tia</a>
                               </li>
                               <li>
-                                <a href="/produtos"> Pizzaria do malandro </a>
+                                <a href=""> Pizzaria do malandro </a>
                               </li>
                               <li>
-                                <a href="/produtos"> Fome Zero</a>
+                                <a href=""> Fome Zero</a>
                               </li>
                               <li>
-                                <a href="/produtos"> Açaí da Ana</a>
+                                <a href=""> Açaí da Ana</a>
                               </li>
                             </ul>
                           </div>
                         </div>
                       </div>
-                      <div className="panel panel-default">
-                        <div className="panel-heading">
-                          <h4 className="panel-title">
+                      <div class="panel panel-default">
+                        <div class="panel-heading">
+                          <h4 class="panel-title">
                             <a data-toggle="collapse" href="#Roupas">
-                              <span className="badge pull-right">
-                                <i className="fa fa-plus"></i>
+                              <span class="badge pull-right">
+                                <i class="fa fa-plus"></i>
                               </span>
                               Roupas
                             </a>
                           </h4>
                         </div>
-                        <div id="Roupas" className="panel-collapse collapse">
-                          <div className="panel-body">
+                        <div id="Roupas" class="panel-collapse collapse">
+                          <div class="panel-body">
                             <ul>
                               <li>
-                                <a href="/produtos"> Preta Margô </a>
+                                <a href=""> Preta Margô </a>
                               </li>
                               <li>
-                                <a href="/produtos"> Favela House</a>
+                                <a href=""> Favela House</a>
                               </li>
                               <li>
-                                <a href="/produtos"> Bradock Marcas</a>
+                                <a href=""> Bradock Marcas</a>
                               </li>
                               <li>
-                                <a href="/produtos"> MM Modas</a>
+                                <a href=""> MM Modas</a>
                               </li>
                               <li>
-                                <a href="/produtos"> King Jacaré Multimarcas</a>
+                                <a href=""> King Jacaré Multimarcas</a>
                               </li>
                             </ul>
                           </div>
                         </div>
                       </div>
-                      <div className="panel panel-default">
-                        <div className="panel-heading">
-                          <h4 className="panel-title">
+                      <div class="panel panel-default">
+                        <div class="panel-heading">
+                          <h4 class="panel-title">
                             <a data-toggle="collapse" href="#Beleza">
-                              <span className="badge pull-right">
-                                <i className="fa fa-plus"></i>
+                              <span class="badge pull-right">
+                                <i class="fa fa-plus"></i>
                               </span>
                               Beleza
                             </a>
                           </h4>
                         </div>
-                        <div id="Beleza" className="panel-collapse collapse">
-                          <div className="panel-body">
+                        <div id="Beleza" class="panel-collapse collapse">
+                          <div class="panel-body">
                             <ul>
                               <li>
-                                <a href="produtos"> Jhú Barber Shop</a>
+                                <a href=""> Jhú Barber Shop</a>
                               </li>
                               <li>
-                                <a href="/produtos"> Dani Piercings</a>
+                                <a href=""> Dani Piercings</a>
                               </li>
                               <li>
-                                <a href="/produtos"> Salão Rozely</a>
+                                <a href=""> Salão Rozely</a>
                               </li>
                               <li>
-                                <a href="/produtos"> Tranças Cavo</a>
+                                <a href=""> Tranças Cavo</a>
                               </li>
                               <li>
-                                <a href="/produtos"> </a>
+                                <a href=""> </a>
                               </li>
                             </ul>
                           </div>
                         </div>
                       </div>
-                      <div className="panel panel-default">
-                        <div className="panel-heading">
-                          <h4 className="panel-title">
+                      <div class="panel panel-default">
+                        <div class="panel-heading">
+                          <h4 class="panel-title">
                             <a data-toggle="collapse" href="#Bares">
-                              <span className="badge pull-right">
-                                <i className="fa fa-plus"></i>
+                              <span class="badge pull-right">
+                                <i class="fa fa-plus"></i>
                               </span>
                               Bar/Depósito de bebidas
                             </a>
                           </h4>
                         </div>
-                        <div id="Bares" className="panel-collapse collapse">
-                          <div className="panel-body">
+                        <div id="Bares" class="panel-collapse collapse">
+                          <div class="panel-body">
                             <ul>
                               <li>
-                                <a href="/produtos"> Barão Bebidas LTDA</a>
+                                <a href=""> Barão Bebidas LTDA</a>
                               </li>
                               <li>
-                                <a href="/produtos"> Bar do Tinoco </a>
+                                <a href=""> Bar do Tinoco </a>
                               </li>
                               <li>
-                                <a href="/produtos"> Bar da Beira</a>
+                                <a href=""> Bar da Beira</a>
                               </li>
                               <li>
-                                <a href="/produtos"> </a>
+                                <a href=""> </a>
                               </li>
                               <li>
-                                <a href="/produtos"> </a>
+                                <a href=""> </a>
                               </li>
                             </ul>
                           </div>
                         </div>
                       </div>
-                      <div className="panel panel-default">
-                        <div className="panel-heading">
-                          <h4 className="panel-title">
+                      <div class="panel panel-default">
+                        <div class="panel-heading">
+                          <h4 class="panel-title">
                             <a data-toggle="collapse" href="#eletronicos">
-                              <span className="badge pull-right">
-                                <i className="fa fa-plus"></i>
+                              <span class="badge pull-right">
+                                <i class="fa fa-plus"></i>
                               </span>
                               Eletrônicos
                             </a>
                           </h4>
                         </div>
-                        <div id="eletronicos" className="panel-collapse collapse">
-                          <div className="panel-body">
+                        <div id="eletronicos" class="panel-collapse collapse">
+                          <div class="panel-body">
                             <ul>
                               <li>
-                                <a href="/produtos">LP Celulares </a>
+                                <a href="">LP Celulares </a>
                               </li>
                               <li>
-                                <a href="/produtos"> LanHouse com VideoGame</a>
+                                <a href=""> LanHouse com VideoGame</a>
+                              </li>
+                              <li>
+                                <a href=""> </a>
+                              </li>
+                              <li>
+                                <a href=""></a>
+                              </li>
+                              <li>
+                                <a href=""> </a>
                               </li>
                             </ul>
                           </div>
                         </div>
                       </div>
-                      <div className="panel panel-default">
-                        <div className="panel-heading">
-                          <h4 className="panel-title">
+                      <div class="panel panel-default">
+                        <div class="panel-heading">
+                          <h4 class="panel-title">
                             <a data-toggle="collapse" href="#tabacaria">
-                              <span className="badge pull-right">
-                                <i className="fa fa-plus"></i>
+                              <span class="badge pull-right">
+                                <i class="fa fa-plus"></i>
                               </span>
                               Tabacaria
                             </a>
                           </h4>
                         </div>
-                        <div id="tabacaria" className="panel-collapse collapse">
-                          <div className="panel-body">
+                        <div id="tabacaria" class="panel-collapse collapse">
+                          <div class="panel-body">
                             <ul>
                               <li>
-                                <a href="/produtos"> Tabacaria da Tia</a>
+                                <a href=""> Tabacaria da Tia</a>
                               </li>
                               <li>
-                                <a href="/produtos"> Jack Narguille</a>
+                                <a href=""> Jack Narguille</a>
                               </li>
                               <li>
-                                <a href="/produtos"> Thug King</a>
+                                <a href=""> Thug King</a>
+                              </li>
+                              <li>
+                                <a href=""></a>
+                              </li>
+                              <li>
+                                <a href=""> </a>
                               </li>
                             </ul>
                           </div>
                         </div>
                       </div>
-                      <div className="panel panel-default">
-                        <div className="panel-heading">
-                          <h4 className="panel-title">
+                      <div class="panel panel-default">
+                        <div class="panel-heading">
+                          <h4 class="panel-title">
                             <a data-toggle="collapse" href="#festa">
-                              <span className="badge pull-right">
-                                <i className="fa fa-plus"></i>
+                              <span class="badge pull-right">
+                                <i class="fa fa-plus"></i>
                               </span>
                               Festa
                             </a>
                           </h4>
                         </div>
-                        <div id="festa" className="panel-collapse collapse">
-                          <div className="panel-body">
+                        <div id="festa" class="panel-collapse collapse">
+                          <div class="panel-body">
                             <ul>
                               <li>
-                                <a href="/produtos">Simone Festas Descartaveis</a>
+                                <a href="">Simone Festas Descartaveis</a>
                               </li>
                               <li>
-                                <a href="/produtos"> Salão de festas Jerusalem</a>
+                                <a href=""> Salão d festas Jerusalem</a>
+                              </li>
+                              <li>
+                                <a href=""></a>
+                              </li>
+                              <li>
+                                <a href=""></a>
+                              </li>
+                              <li>
+                                <a href=""></a>
+                              </li>
+                              <li>
+                                <a href=""></a>
+                              </li>
+                              <li>
+                                <a href=""></a>
+                              </li>
+                              <li>
+                                <a href=""></a>
+                              </li>
+                              <li>
+                                <a href=""></a>
+                              </li>
+                              <li>
+                                <a href=""></a>
                               </li>
                             </ul>
                           </div>
                         </div>
                       </div>
 
-                      <div className="panel panel-default">
-                        <div className="panel-heading">
-                          <h4 className="panel-title">
+                      <div class="panel panel-default">
+                        <div class="panel-heading">
+                          <h4 class="panel-title">
                             <a data-toggle="collapse" href="#oficina">
-                              <span className="badge pull-right">
-                                <i className="fa fa-plus"></i>
+                              <span class="badge pull-right">
+                                <i class="fa fa-plus"></i>
                               </span>
                               Oficina
                             </a>
                           </h4>
                         </div>
-                        <div id="oficina" className="panel-collapse collapse">
-                          <div className="panel-body">
+                        <div id="oficina" class="panel-collapse collapse">
+                          <div class="panel-body">
                             <ul>
                               <li>
-                                <a href="/produtos">Conserto Bike</a>
+                                <a href="">Conserto Bike</a>
                               </li>
                               <li>
-                                <a href="/produtos"> Eletro Paulo</a>
+                                <a href=""> Eletro Paulo</a>
                               </li>
                               <li>
-                                <a href="/produtos">Renato Refrigeração</a>
+                                <a href="">Renato Refrigeração</a>
                               </li>
                               <li>
-                                <a href="/produtos">Dior</a>
+                                <a href="">Dior</a>
                               </li>
                               <li>
-                                <a href="/produtos">Versace</a>
+                                <a href="">Versace</a>
                               </li>
                             </ul>
                           </div>
                         </div>
                       </div>
 
-                      <div className="panel panel-default">
-                        <div className="panel-heading">
-                          <h4 className="panel-title">
+                      <div class="panel panel-default">
+                        <div class="panel-heading">
+                          <h4 class="panel-title">
                             <a data-toggle="collapse" href="#cultura">
-                              <span className="badge pull-right">
-                                <i className="fa fa-plus"></i>
+                              <span class="badge pull-right">
+                                <i class="fa fa-plus"></i>
                               </span>
                               Eventos/
                               <br />
@@ -276,36 +312,44 @@ const MainProduto = () => {
                             </a>
                           </h4>
                         </div>
-                        <div id="cultura" className="panel-collapse collapse">
-                          <div className="panel-body">
+                        <div id="cultura" class="panel-collapse collapse">
+                          <div class="panel-body">
                             <ul>
                               <li>
-                                <a href="/produtos"> Aula de dança</a>
+                                <a href=""> Aula de dança</a>
                               </li>
                               <li>
-                                <a href="/produtos"> Taekwondo BlackBelt Grajaú</a>
+                                <a href=""> Taekwondo BlackBelt Grajaú</a>
                               </li>
                               <li>
-                                <a href="/produtos"> Roda de Rima</a>
+                                <a href=""> Roda de Rima</a>
                               </li>
                               <li>
-                                <a href="/produtos"> Aula de Violão</a>
+                                <a href=""> Aula de Violão</a>
+                              </li>
+                              <li>
+                                <a href=""></a>
                               </li>
                             </ul>
                           </div>
-                          
                         </div>
                       </div>
                     </div>
-                  </div>
+                 
                 </div>
               </div>
             </div>
           </PanelGroup>
-
-            <CardProduto/>
         </div>
-      </main>
+         <section className="def">
+          <div className="container-flex">
+          <CardProduto/>
+          
+              
+          
+          </div>
+          </section>
+          </section>
     </>
   );
 };

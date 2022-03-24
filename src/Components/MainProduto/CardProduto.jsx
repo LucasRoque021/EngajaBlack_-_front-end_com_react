@@ -12,39 +12,26 @@ const CardProduto = () => {
     .catch((erro) => console.log(erro))},[])
 
   return (
-    <div
-      style={{
-        display: "flex",
+    <section className="def"> 
+    {produto.map((produto) => (
 
-        paddingLeft: 10,
-      }}
-    >
-      <div className="">
-        <h2 className="titulo">Pertinho de você ...</h2>
-
-        <div className="col-sm-4">
-          <div className="card-toggle">
-          {produto.map((produto) =>(
-            <div className="card-group" key={produto.id}>
-              <div className="bg-dark text-white m-3 p-3">
-
-                  <div className="products">
-                  <div className="productinfo text-center">
-                    <img id="logo" src={logo} alt="Logotipo" />
-                    <h2 className="text-warning">R${produto.preco.toFixed(2).replace(".",",")}</h2>
-                    <p>{produto.nomeProduto}</p>
-                    <a href="/produtos" className="btn btn-default add-to-cart">
-                      <i></i>Ver mais informações
-                    </a>
-                  </div>
-                </div>
-              </div>
+      <div className="card-group ">
+        <div className="card">
+          <div className="products">
+            <div className="productinfo text-center">
+              <img id="img" src={logo} alt="Logotipo" />
+              <h2 className="text-warning">R${produto.preco}</h2>
+              <p>{produto.nomeProduto}</p>
+              <a href="#" className="btn btn-default add-to-cart">
+                <i></i>Ver mais informações
+              </a>
             </div>
-                  ))}
           </div>
-        </div>
+        </div> 
       </div>
-    </div>
+    ))}
+    
+    </section>
   );
 };
 
