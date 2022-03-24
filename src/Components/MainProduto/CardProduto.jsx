@@ -22,7 +22,7 @@ const CardProduto = () => {
               <img id="img" src={logo} alt="Logotipo" />
               <h2 className="text-warning">R${produto.preco}</h2>
               <p>{produto.nomeProduto}</p>
-              <a href="#" className="btn btn-default add-to-cart">
+              <a href="/produtos" className="btn btn-default add-to-cart">
                 <i></i>Ver mais informações
               </a>
             </div>

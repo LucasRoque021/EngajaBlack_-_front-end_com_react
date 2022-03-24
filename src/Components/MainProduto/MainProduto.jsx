@@ -33,19 +33,19 @@ const MainProduto = () => {
                           <div class="panel-body">
                             <ul>
                               <li>
-                                <a href=""> Hamburguer do tio </a>
+                                <a href="/produtos"> Hamburguer do tio </a>
                               </li>
                               <li>
-                                <a href=""> Marmita da Tia</a>
+                                <a href="/produtos"> Marmita da Tia</a>
                               </li>
                               <li>
-                                <a href=""> Pizzaria do malandro </a>
+                                <a href="/produtos"> Pizzaria do malandro </a>
                               </li>
                               <li>
-                                <a href=""> Fome Zero</a>
+                                <a href="/produtos"> Fome Zero</a>
                               </li>
                               <li>
-                                <a href=""> Açaí da Ana</a>
+                                <a href="/produtos"> Açaí da Ana</a>
                               </li>
                             </ul>
                           </div>
@@ -66,19 +66,19 @@ const MainProduto = () => {
                           <div class="panel-body">
                             <ul>
                               <li>
-                                <a href=""> Preta Margô </a>
+                                <a href="/produtos"> Preta Margô </a>
                               </li>
                               <li>
-                                <a href=""> Favela House</a>
+                                <a href="/produtos"> Favela House</a>
                               </li>
                               <li>
-                                <a href=""> Bradock Marcas</a>
+                                <a href="/produtos"> Bradock Marcas</a>
                               </li>
                               <li>
-                                <a href=""> MM Modas</a>
+                                <a href="/produtos"> MM Modas</a>
                               </li>
                               <li>
-                                <a href=""> King Jacaré Multimarcas</a>
+                                <a href="/produtos"> King Jacaré Multimarcas</a>
                               </li>
                             </ul>
                           </div>
@@ -99,19 +99,16 @@ const MainProduto = () => {
                           <div class="panel-body">
                             <ul>
                               <li>
-                                <a href=""> Jhú Barber Shop</a>
+                                <a href="/produtos"> Jhú Barber Shop</a>
                               </li>
                               <li>
-                                <a href=""> Dani Piercings</a>
+                                <a href="/produtos"> Dani Piercings</a>
                               </li>
                               <li>
-                                <a href=""> Salão Rozely</a>
+                                <a href="/produtos"> Salão Rozely</a>
                               </li>
                               <li>
-                                <a href=""> Tranças Cavo</a>
-                              </li>
-                              <li>
-                                <a href=""> </a>
+                                <a href="/produtos"> Tranças Cavo</a>
                               </li>
                             </ul>
                           </div>
@@ -132,19 +129,19 @@ const MainProduto = () => {
                           <div class="panel-body">
                             <ul>
                               <li>
-                                <a href=""> Barão Bebidas LTDA</a>
+                                <a href="/produtos"> Barão Bebidas LTDA</a>
                               </li>
                               <li>
-                                <a href=""> Bar do Tinoco </a>
+                                <a href="/produtos"> Bar do Tinoco </a>
                               </li>
                               <li>
-                                <a href=""> Bar da Beira</a>
+                                <a href="/produtos"> Bar da Beira</a>
                               </li>
                               <li>
-                                <a href=""> </a>
+                                <a href="/produtos"> </a>
                               </li>
                               <li>
-                                <a href=""> </a>
+                                <a href="/produtos"> </a>
                               </li>
                             </ul>
                           </div>
@@ -165,19 +162,10 @@ const MainProduto = () => {
                           <div class="panel-body">
                             <ul>
                               <li>
-                                <a href="">LP Celulares </a>
+                                <a href="/produtos">LP Celulares </a>
                               </li>
                               <li>
-                                <a href=""> LanHouse com VideoGame</a>
-                              </li>
-                              <li>
-                                <a href=""> </a>
-                              </li>
-                              <li>
-                                <a href=""></a>
-                              </li>
-                              <li>
-                                <a href=""> </a>
+                                <a href="/produtos"> LanHouse com VideoGame</a>
                               </li>
                             </ul>
                           </div>
@@ -198,19 +186,13 @@ const MainProduto = () => {
                           <div class="panel-body">
                             <ul>
                               <li>
-                                <a href=""> Tabacaria da Tia</a>
+                                <a href="/produtos"> Tabacaria da Tia</a>
                               </li>
                               <li>
-                                <a href=""> Jack Narguille</a>
+                                <a href="/produtos"> Jack Narguille</a>
                               </li>
                               <li>
-                                <a href=""> Thug King</a>
-                              </li>
-                              <li>
-                                <a href=""></a>
-                              </li>
-                              <li>
-                                <a href=""> </a>
+                                <a href="/produtos"> Thug King</a>
                               </li>
                             </ul>
                           </div>
@@ -231,34 +213,10 @@ const MainProduto = () => {
                           <div class="panel-body">
                             <ul>
                               <li>
-                                <a href="">Simone Festas Descartaveis</a>
+                                <a href="/produtos">Simone Festas Descartaveis</a>
                               </li>
                               <li>
-                                <a href=""> Salão d festas Jerusalem</a>
-                              </li>
-                              <li>
-                                <a href=""></a>
-                              </li>
-                              <li>
-                                <a href=""></a>
-                              </li>
-                              <li>
-                                <a href=""></a>
-                              </li>
-                              <li>
-                                <a href=""></a>
-                              </li>
-                              <li>
-                                <a href=""></a>
-                              </li>
-                              <li>
-                                <a href=""></a>
-                              </li>
-                              <li>
-                                <a href=""></a>
-                              </li>
-                              <li>
-                                <a href=""></a>
+                                <a href="/produtos"> Salão d festas Jerusalem</a>
                               </li>
                             </ul>
                           </div>
@@ -280,19 +238,19 @@ const MainProduto = () => {
                           <div class="panel-body">
                             <ul>
                               <li>
-                                <a href="">Conserto Bike</a>
+                                <a href="/produtos">Conserto Bike</a>
                               </li>
                               <li>
-                                <a href=""> Eletro Paulo</a>
+                                <a href="/produtos"> Eletro Paulo</a>
                               </li>
                               <li>
-                                <a href="">Renato Refrigeração</a>
+                                <a href="/produtos">Renato Refrigeração</a>
                               </li>
                               <li>
-                                <a href="">Dior</a>
+                                <a href="/produtos">Dior</a>
                               </li>
                               <li>
-                                <a href="">Versace</a>
+                                <a href="/produtos">Versace</a>
                               </li>
                             </ul>
                           </div>
@@ -316,19 +274,16 @@ const MainProduto = () => {
                           <div class="panel-body">
                             <ul>
                               <li>
-                                <a href=""> Aula de dança</a>
+                                <a href="/produtos"> Aula de dança</a>
                               </li>
                               <li>
-                                <a href=""> Taekwondo BlackBelt Grajaú</a>
+                                <a href="/produtos"> Taekwondo BlackBelt Grajaú</a>
                               </li>
                               <li>
-                                <a href=""> Roda de Rima</a>
+                                <a href="/produtos"> Roda de Rima</a>
                               </li>
                               <li>
-                                <a href=""> Aula de Violão</a>
-                              </li>
-                              <li>
-                                <a href=""></a>
+                                <a href="/produtos"> Aula de Violão</a>
                               </li>
                             </ul>
                           </div>
@@ -349,7 +304,7 @@ const MainProduto = () => {
           
           </div>
           </section>
-          </section>
+      </section>
     </>
   );
 };
